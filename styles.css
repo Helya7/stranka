@@ -39,6 +39,12 @@ body {
     font-size: 16px;
 }
 
+table,
+th,
+td {
+    border: 1px solid;
+}
+
 .container {
     width: 100%;
     max-width: 1158px;
@@ -224,3 +230,7 @@ body {
     margin-right: 100px;
 }
 
+.bgr-color {
+    background-color: var(--priority-color);
+    color: var(--priority-text-color);
+}
