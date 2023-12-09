@@ -149,7 +149,7 @@ td {
 .first-section {
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(./images/people-office.jpg);
+    url(/images/obrazok-2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1440px;
@@ -158,7 +158,7 @@ td {
 }
 
 .section-future {
-    background-image: url(/images/elektricka-podpis.jpg);
+    background-image: url(/images/obrazok-1.jpg);
     /* linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)); */
     background-repeat: no-repeat;
     background-position: center;
@@ -232,5 +232,9 @@ td {
 
 .bgr-color {
     background-color: var(--priority-color);
+    color: var(--priority-text-color);
+}
+
+.mail {
     color: var(--priority-text-color);
 }
